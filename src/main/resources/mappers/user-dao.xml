@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper>
+
+    <!--<resultMap id="userResult" type="com.byd.ldb.domain.User">-->
+        <!--<id column="uid" property="uid"/>-->
+        <!--<result column="username" property="username"/>-->
+        <!--<result column="password" property="password"/>-->
+        <!--<result column="email" property="email"/>-->
+        <!--<result column="state" property="state"/>-->
+        <!--<result column="code" property="code"/>-->
+    <!--</resultMap>-->
+    <!--<select id="findAllUsers" resultMap="userResult">-->
+        <!--SELECT * FROM user-->
+    <!--</select>-->
+
+    <!--<select id="findByUsername" parameterType="String" resultMap="userResult">-->
+        <!--SELECT * FROM user WHERE username=#{username}-->
+    <!--</select>-->
+</mapper>
